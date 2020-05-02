@@ -2,6 +2,15 @@ html, body {
   height: 100%;
 }
 
+body {
+  font-size: 16px;
+  line-height: 1.42;
+  font-family: 'Roboto', Arial, sans-serif;
+  color: #212121;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 .hero {
   height: 100vh;
   min-height: 650px;
@@ -18,8 +27,7 @@ html, body {
 }
 
 .mail {
-  font-size: 16px;
-  color: #212121;
+  color: inherit;
   text-align: center;
   text-decoration: none;
 }
@@ -31,6 +39,5 @@ html, body {
 .mail__content {
   background: #212121;
   color: #ffbc2f;
-  font-size: 16px;
   padding: 5px 10px;
 }
