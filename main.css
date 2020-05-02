@@ -8,3 +8,29 @@ html, body {
   background: url('./img/bg/hero.jpg')  no-repeat center center;
   background-size: cover;
 }
+
+.header {
+  width: 1290px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mail {
+  font-size: 16px;
+  color: #212121;
+  text-align: center;
+  text-decoration: none;
+}
+
+.mail__title {
+  margin-bottom: 3px;
+}
+
+.mail__content {
+  background: #212121;
+  color: #ffbc2f;
+  font-size: 16px;
+  padding: 5px 10px;
+}
