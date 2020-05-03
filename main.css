@@ -78,9 +78,9 @@ body {
 
 .fade-slider__text {
   position: absolute;
-  top: 50%;
   left: 50%;
-  transform: translate(-164%, -52%);
+  top: 50%;
+  transform: translate(-100%, -52%);
 }
 
 .lined-text {
