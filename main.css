@@ -19,6 +19,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.wrapper {
+  overflow: hidden;
+  min-width: 1310px;
+}
+
 .hero {
   position: relative;
   height: 100vh;
