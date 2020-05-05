@@ -176,10 +176,40 @@ ul > li {
   background: var(--yellow);
   margin-bottom: 35px;
   margin-left: 27px;
+  position: relative;
+}
+.products__price {
+  position: absolute;
+  top: 18px;
+  left: -6px;
+  width: 126px;
+  border-bottom: 45px solid #232323;
+  border-left: 5px solid transparent;
+  border-right: 2px solid transparent;
+  transform: rotate(-181deg);
+}
+
+.products__price-amount {
+  font-weight: 700;
+  font-size: 30px;
+  font-family: var(--titlesFont);
+  color: #fff;
+  transform: rotate(181deg);
+  position: absolute;
+  top: 2px;
+  right: 28px;
 }
 
 .products__item--color-black {
   background: #232323;
+}
+
+.products__item--color-black .products__price {
+  border-bottom-color: var(--yellow);
+}
+
+.products__item--color-black .products__price-amount {
+  color: #212121; 
 }
 
 .products__item--size-double {
